@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libhhhello.a CMakeFiles/hhhello_static.dir/hello.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libhhhello.a

@@ -1,0 +1,19 @@
+
+ADD_EXECUTABLE(curltest main.c)
+
+# 添加 curl 的头文件路径和库文件
+
+# 方法一
+INCLUDE_DIRECTORIES(/usr/include)
+TARGET_LINK_LIBRARIES(curltest curl)
+
+# 方法二
+
+# 
+FIND_PACKAGE(CURL)
+IF(CURL_FOUND)
+    INCLUDE_DIRECTORIES(${CURL_INCLUDE_DIR})
+    TARGET_LINK_LIBRARIES(curltest ${CURL_LIBRARIES})
+ELSE(CURL_FOUND)
+    MESSAGE(FATAL_ERROR "CURL library not found")
+ENDIF(CURL_FOUND)

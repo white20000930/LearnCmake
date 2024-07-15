@@ -1,0 +1,5 @@
+# 工程名
+PROJECT(HELLOLIB)
+
+# 添加子目录
+ADD_SUBDIRECTORY(lib)

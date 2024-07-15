@@ -1,0 +1,3 @@
+/Users/baigege/LearnCMake/t1/build/CMakeFiles/hello.dir
+/Users/baigege/LearnCMake/t1/build/CMakeFiles/edit_cache.dir
+/Users/baigege/LearnCMake/t1/build/CMakeFiles/rebuild_cache.dir
